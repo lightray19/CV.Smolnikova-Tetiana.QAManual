@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@1,500&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.main-info,
+.work-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.avatar,
+.additional-info {
+    font-style: italic;
+  position: relative;
+  width: 400px;
+}
+
+.avatar img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.personal-info,
+.experience-info {
+  position: relative;
+  width: 400px
+}
+
+
+
